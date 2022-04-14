@@ -1,0 +1,42 @@
+.block {
+    position: relative;
+    padding: 20px;
+    border-radius: 20px;
+    min-height: 500px;
+    background: #fff;
+    &__input {
+        margin-bottom: 20px;
+    }
+    h1 {
+        text-transform: capitalize;
+    }
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -10px;
+    }
+    &__weather {
+        width: calc(25% - 20px);
+        margin: 0 10px 20px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &Title {
+            text-transform: capitalize;
+            font-weight: 500;
+        }
+    }
+    &__loader {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.data {
+    p {
+        margin-bottom: 10px;
+    }
+}

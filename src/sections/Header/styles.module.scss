@@ -1,0 +1,22 @@
+.header {
+    background: #fff;
+    border-bottom: 2px solid orange;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0px 11px 48px 22px rgba(34, 60, 80, 0.33);
+    &__logo {
+        display: flex;
+        align-items: center;
+
+        font-weight: 700;
+        svg {
+            animation: spin 4s linear infinite;
+        }
+    }
+}
+
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}

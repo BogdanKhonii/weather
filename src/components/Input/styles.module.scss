@@ -1,0 +1,26 @@
+.input {
+    position: relative;
+    input {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #000;
+        
+    }
+    svg {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 16px;
+
+        width: 16px;
+        height: 16px;
+
+    }
+    &.icon {
+        input {
+            padding-left: 40px;
+        }
+    }
+}
